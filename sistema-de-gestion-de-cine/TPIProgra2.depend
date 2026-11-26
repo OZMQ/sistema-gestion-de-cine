@@ -1,0 +1,875 @@
+# depslib dependency file v1.0
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivobutacas.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoButacas.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivobutacas.h
+	"clsButaca.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsbutaca.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivocompras.cpp
+	<iostream>
+	"clsArchivoCompras.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivocompras.h
+	"clsCompra.h"
+	<cstring>
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clscompra.h
+	"clsFecha.h"
+	"clsHora.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsfecha.h
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clshora.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivodescuento.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoDescuento.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivodescuento.h
+	"clsDescuento.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsdescuento.h
+	<cstring>
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivodetalleentradas.cpp
+	<iostream>
+	"clsArchivoDetalleEntradas.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivodetalleentradas.h
+	"clsDetalleEntrada.h"
+	<cstring>
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsdetalleentrada.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivoformato.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoFormato.h"
+	<cerrno>
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivoformato.h
+	"clsFormato.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsformato.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivofunciones.cpp
+	<iostream>
+	"clsArchivoFunciones.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivofunciones.h
+	"clsFuncion.h"
+	<cstring>
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsfuncion.h
+	"clsFecha.h"
+	"clsHora.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivopelicula.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoPeliculas.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivopeliculas.h
+	"clsPelicula.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clspelicula.h
+	"clsFecha.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivosalas.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoSalas.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivosalas.h
+	"clsSala.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clssala.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivosocios.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoSocios.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsarchivosocios.h
+	"clsSocio.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clssocio.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsbutaca.cpp
+	<iostream>
+	<cstring>
+	"clsButaca.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clscompra.cpp
+	<iostream>
+	<iomanip>
+	"clsCompra.h"
+	"clsArchivoCompras.h"
+	"clsArchivoSocios.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsdescuento.cpp
+	<iostream>
+	<cstring>
+	"clsDescuento.h"
+	"clsArchivoDescuento.h"
+	"funciones.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\funciones.h
+	"clsFuncion.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsdetalleentrada.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+	"clsDetalleEntrada.h"
+	"clsArchivoDetalleEntradas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoCompras.h"
+	"clsArchivoButacas.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFormato.h"
+	"clsArchivoPeliculas.h"
+	"funciones.h"
+
+1794932406 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsfecha.cpp
+	<iostream>
+	<iomanip>
+	"clsFecha.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsformato.cpp
+	<iostream>
+	<cstring>
+	"clsFormato.h"
+	"clsArchivoFormato.h"
+	"funciones.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clsfuncion.cpp
+	<iostream>
+	"clsFuncion.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoSalas.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clshora.cpp
+	<iostream>
+	"clsHora.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clspelicula.cpp
+	<iostream>
+	<cstring>
+	"clsPelicula.h"
+	"clsArchivoPeliculas.h"
+	"clsFecha.h"
+	"funciones.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clssala.cpp
+	<iostream>
+	"clsSala.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFormato.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\clssocio.cpp
+	<iostream>
+	<cstring>
+	"clsSocio.h"
+	"clsArchivoSocios.h"
+	"funciones.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\consultas.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	<cstring>
+	"consultas.h"
+	"funciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoSocios.h"
+	"clsArchivoCompras.h"
+	"clsArchivoSalas.h"
+	"clsArchivoDetalleEntradas.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\consultas.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\funciones.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<iomanip>
+	"funciones.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoFormato.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+	<vector>
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\listados.cpp
+	<iostream>
+	<vector>
+	<windows.h>
+	"listados.h"
+	"funciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFormato.h"
+	"clsArchivoSalas.h"
+	"clsArchivoButacas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\listados.h
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\main.cpp
+	"submenues.h"
+	<windows.h>
+	<clocale>
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\submenues.h
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+
+1794931740 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\submenues.cpp
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+	"submenues.h"
+	"listados.h"
+	"consultas.h"
+	"informes.h"
+
+1794931740 c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\informes.h
+
+1794932100 source:c:\users\estudiante\desktop\tpi progra 2\sistema-de-gestion-de-cine\informes.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<iomanip>
+	"informes.h"
+	"funciones.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoFormato.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+	<vector>
+
+1794944021 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivobutacas.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoButacas.h"
+
+1794503014 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivobutacas.h
+	"clsButaca.h"
+
+1793919744 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsbutaca.h
+
+1794845243 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivocompras.cpp
+	<iostream>
+	"clsArchivoCompras.h"
+
+1795113346 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivocompras.h
+	"clsCompra.h"
+	<cstring>
+
+1795113679 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clscompra.h
+	"clsFechaHora.h"
+
+1795106606 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsfecha.h
+
+1795106508 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clshora.h
+
+1794500755 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivodescuento.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoDescuento.h"
+
+1794503013 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivodescuento.h
+	"clsDescuento.h"
+
+1794607014 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsdescuento.h
+	<cstring>
+
+1793744747 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivodetalleentradas.cpp
+	<iostream>
+	"clsArchivoDetalleEntradas.h"
+
+1795113448 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivodetalleentradas.h
+	"clsDetalleEntrada.h"
+	<cstring>
+
+1795113678 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsdetalleentrada.h
+
+1794845489 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivoformato.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoFormato.h"
+	<cerrno>
+
+1794503013 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivoformato.h
+	"clsFormato.h"
+
+1794446019 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsformato.h
+
+1794845489 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivofunciones.cpp
+	<iostream>
+	"clsArchivoFunciones.h"
+
+1794500755 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivofunciones.h
+	"clsFuncion.h"
+	<cstring>
+
+1795108322 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsfuncion.h
+	"clsFechaHora.h"
+	"clsHora.h"
+
+1794500755 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivopelicula.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoPeliculas.h"
+
+1794503014 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivopeliculas.h
+	"clsPelicula.h"
+
+1795107786 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clspelicula.h
+	"clsFechaHora.h"
+
+1794845489 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivosalas.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoSalas.h"
+
+1794503014 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivosalas.h
+	"clsSala.h"
+
+1794446019 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clssala.h
+
+1794500756 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivosocios.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoSocios.h"
+
+1794503013 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsarchivosocios.h
+	"clsSocio.h"
+
+1793745955 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clssocio.h
+
+1793919744 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsbutaca.cpp
+	<iostream>
+	<cstring>
+	"clsButaca.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+
+1795113711 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clscompra.cpp
+	<iostream>
+	"clsCompra.h"
+	"clsArchivoCompras.h"
+	"clsArchivoSocios.h"
+	"clsArchivoSalas.h"
+
+1795120642 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsdescuento.cpp
+	<iostream>
+	<cstring>
+	"clsDescuento.h"
+	"clsArchivoDescuento.h"
+	"funciones.h"
+
+1795110192 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\funciones.h
+	"clsFuncion.h"
+
+1795114442 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsdetalleentrada.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+	"clsDetalleEntrada.h"
+	"clsArchivoDetalleEntradas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFormato.h"
+	"clsArchivoPeliculas.h"
+	"funciones.h"
+
+1794863853 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsformato.cpp
+	<iostream>
+	<cstring>
+	"clsFormato.h"
+	"clsArchivoFormato.h"
+	"funciones.h"
+
+1795109230 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsfuncion.cpp
+	<iostream>
+	"clsFuncion.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoSalas.h"
+
+1795106507 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clshora.cpp
+	<iostream>
+	<iomanip>
+	"clsHora.h"
+
+1795109372 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clspelicula.cpp
+	<iostream>
+	<cstring>
+	"clsPelicula.h"
+	"clsArchivoPeliculas.h"
+	"clsFechaHora.h"
+	"funciones.h"
+
+1795120915 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clssala.cpp
+	<iostream>
+	"clsSala.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFormato.h"
+
+1794863755 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clssocio.cpp
+	<iostream>
+	<cstring>
+	"clsSocio.h"
+	"clsArchivoSocios.h"
+	"funciones.h"
+
+1795108399 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\consultas.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	<cstring>
+	"consultas.h"
+	"funciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoSocios.h"
+	"clsArchivoCompras.h"
+	"clsArchivoSalas.h"
+	"clsArchivoDetalleEntradas.h"
+
+1794865637 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\consultas.h
+
+1795114442 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\funciones.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<iomanip>
+	"funciones.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoSalas.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoFormato.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+	<vector>
+
+1795120342 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\listados.cpp
+	<iostream>
+	<vector>
+	<windows.h>
+	"listados.h"
+	"funciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFormato.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+
+1794609121 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\listados.h
+
+1795012693 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\main.cpp
+	"menues.h"
+	<windows.h>
+	<clocale>
+
+1794446019 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\submenues.h
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+
+1794865277 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\submenues.cpp
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+	"submenues.h"
+	"listados.h"
+	"consultas.h"
+	"informes.h"
+
+1794746461 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\informes.h
+
+1795114442 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\informes.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<iomanip>
+	"informes.h"
+	"funciones.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoSalas.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoFormato.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+	<vector>
+
+1795107700 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsfecha.cpp
+	<iostream>
+	<iomanip>
+	"clsFecha.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivocompras.cpp
+	<iostream>
+	"clsArchivoCompras.h"
+
+1794486338 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivocompras.h
+	"clsCompra.h"
+	<cstring>
+
+1794183056 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clscompra.h
+	"clsFecha.h"
+	"clsHora.h"
+
+1794183056 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsfecha.h
+
+1794183056 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clshora.h
+
+1794486338 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivodescuento.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoDescuento.h"
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivodescuento.h
+	"clsDescuento.h"
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsdescuento.h
+	<cstring>
+
+1793791559 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivodetalleentradas.cpp
+	<iostream>
+	"clsArchivoDetalleEntradas.h"
+
+1793791559 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivodetalleentradas.h
+	"clsDetalleEntrada.h"
+	<cstring>
+
+1794953904 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsdetalleentrada.h
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivoformato.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoFormato.h"
+	<cerrno>
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivoformato.h
+	"clsFormato.h"
+
+1794281187 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsformato.h
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivofunciones.cpp
+	<iostream>
+	"clsArchivoFunciones.h"
+
+1794486338 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivofunciones.h
+	"clsFuncion.h"
+	<cstring>
+
+1794351538 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsfuncion.h
+	"clsFecha.h"
+	"clsHora.h"
+
+1794486338 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivopelicula.cpp
+	<iostream>
+	<cstring>
+	"clsArchivoPeliculas.h"
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivopeliculas.h
+	"clsPelicula.h"
+
+1794183056 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clspelicula.h
+	"clsFecha.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivosalas.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoSalas.h"
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivosalas.h
+	"clsSala.h"
+
+1794285945 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clssala.h
+
+1794686424 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivosocios.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoSocios.h"
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivosocios.h
+	"clsSocio.h"
+
+1793791559 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clssocio.h
+
+1794183056 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsbutaca.cpp
+	<iostream>
+	<cstring>
+	"clsButaca.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+
+1794183056 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsbutaca.h
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivobutacas.h
+	"clsButaca.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clscompra.cpp
+	<iostream>
+	<iomanip>
+	"clsCompra.h"
+	"clsArchivoCompras.h"
+	"clsArchivoSocios.h"
+
+1794686859 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsdescuento.cpp
+	<iostream>
+	<cstring>
+	"clsDescuento.h"
+	"clsArchivoDescuento.h"
+	"funciones.h"
+
+1794667262 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\funciones.h
+	"clsFuncion.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsformato.cpp
+	<iostream>
+	<cstring>
+	"clsFormato.h"
+	"clsArchivoFormato.h"
+	"funciones.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsfuncion.cpp
+	<iostream>
+	"clsFuncion.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoSalas.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clspelicula.cpp
+	<iostream>
+	<cstring>
+	"clsPelicula.h"
+	"clsArchivoPeliculas.h"
+	"clsFecha.h"
+	"funciones.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clssala.cpp
+	<iostream>
+	"clsSala.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFormato.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clssocio.cpp
+	<iostream>
+	<cstring>
+	"clsSocio.h"
+	"clsArchivoSocios.h"
+	"funciones.h"
+
+1794937671 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\consultas.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	<cstring>
+	"consultas.h"
+	"funciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoSocios.h"
+	"clsArchivoCompras.h"
+	"clsArchivoSalas.h"
+	"clsArchivoDetalleEntradas.h"
+
+1794937671 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\consultas.h
+
+1794976925 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\main.cpp
+	"submenues.h"
+	<windows.h>
+	<clocale>
+
+1794281360 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\submenues.h
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+
+1794950324 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsarchivobutacas.cpp
+	<cstdio>
+	<cstring>
+	"clsArchivoButacas.h"
+
+1794950324 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsfecha.cpp
+	<iostream>
+	<iomanip>
+	"clsFecha.h"
+
+1794950324 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clshora.cpp
+	<iostream>
+	<iomanip>
+	"clsHora.h"
+
+1794950324 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\funciones.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<iomanip>
+	"funciones.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoFormato.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+	<vector>
+
+1794974618 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\informes.cpp
+	<iostream>
+	<windows.h>
+	<ctime>
+	<iomanip>
+	"informes.h"
+	"funciones.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoButacas.h"
+	"clsArchivoSalas.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoFormato.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+	<vector>
+
+1794667262 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\informes.h
+
+1794950324 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\listados.cpp
+	<iostream>
+	<vector>
+	<windows.h>
+	"listados.h"
+	"funciones.h"
+	"clsArchivoPeliculas.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoSocios.h"
+	"clsArchivoFormato.h"
+	"clsArchivoSalas.h"
+	"clsArchivoButacas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoCompras.h"
+	"clsArchivoDetalleEntradas.h"
+
+1794619891 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\listados.h
+
+1794976828 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\submenues.cpp
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+	"submenues.h"
+	"listados.h"
+	"consultas.h"
+	"informes.h"
+
+1794953904 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\clsdetalleentrada.cpp
+	<iostream>
+	<cstring>
+	<iomanip>
+	"clsDetalleEntrada.h"
+	"clsArchivoDetalleEntradas.h"
+	"clsArchivoFunciones.h"
+	"clsArchivoCompras.h"
+	"clsArchivoButacas.h"
+	"clsArchivoDescuento.h"
+	"clsArchivoSalas.h"
+	"clsArchivoFormato.h"
+	"clsArchivoPeliculas.h"
+	"funciones.h"
+
+1794981647 source:c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\menus.cpp
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+	"menus.h"
+	"listados.h"
+	"consultas.h"
+	"informes.h"
+
+1794281360 c:\users\asus\desktop\programacion\gestion_cines\sistema-de-gestion-de-cine\menus.h
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+
+1795012357 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\menues.h
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+
+1795113026 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\menues.cpp
+	<iostream>
+	<windows.h>
+	"clsArchivoPeliculas.h"
+	"clsPelicula.h"
+	"funciones.h"
+	"menues.h"
+	"listados.h"
+	"consultas.h"
+	"informes.h"
+
+1795106606 c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsfechahora.h
+
+1795108171 source:c:\users\naza\desktop\tpicompartido\sistema-de-gestion-de-cine\clsfechahora.cpp
+	<iostream>
+	<iomanip>
+	"clsFechaHora.h"
+

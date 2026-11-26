@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TPIProgra2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TPIProgra2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TPIProgra2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="clsArchivoCompras.cpp" />
+		<Unit filename="clsArchivoCompras.h" />
+		<Unit filename="clsArchivoDescuento.cpp" />
+		<Unit filename="clsArchivoDescuento.h" />
+		<Unit filename="clsArchivoDetalleEntradas.cpp" />
+		<Unit filename="clsArchivoDetalleEntradas.h" />
+		<Unit filename="clsArchivoFormato.cpp" />
+		<Unit filename="clsArchivoFormato.h" />
+		<Unit filename="clsArchivoFunciones.cpp" />
+		<Unit filename="clsArchivoFunciones.h" />
+		<Unit filename="clsArchivoPelicula.cpp" />
+		<Unit filename="clsArchivoPeliculas.h" />
+		<Unit filename="clsArchivoSalas.cpp" />
+		<Unit filename="clsArchivoSalas.h" />
+		<Unit filename="clsArchivoSocios.cpp" />
+		<Unit filename="clsArchivoSocios.h" />
+		<Unit filename="clsCompra.cpp" />
+		<Unit filename="clsCompra.h" />
+		<Unit filename="clsDescuento.cpp" />
+		<Unit filename="clsDescuento.h" />
+		<Unit filename="clsDetalleEntrada.cpp" />
+		<Unit filename="clsFechaHora.cpp" />
+		<Unit filename="clsFechaHora.h" />
+		<Unit filename="clsFormato.cpp" />
+		<Unit filename="clsFormato.h" />
+		<Unit filename="clsFuncion.cpp" />
+		<Unit filename="clsFuncion.h" />
+		<Unit filename="clsHora.cpp" />
+		<Unit filename="clsHora.h" />
+		<Unit filename="clsPelicula.cpp" />
+		<Unit filename="clsPelicula.h" />
+		<Unit filename="clsSala.cpp" />
+		<Unit filename="clsSala.h" />
+		<Unit filename="clsSocio.cpp" />
+		<Unit filename="clsSocio.h" />
+		<Unit filename="consultas.cpp" />
+		<Unit filename="consultas.h" />
+		<Unit filename="funciones.cpp" />
+		<Unit filename="funciones.h" />
+		<Unit filename="informes.cpp" />
+		<Unit filename="informes.h" />
+		<Unit filename="listados.cpp" />
+		<Unit filename="listados.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menues.cpp" />
+		<Unit filename="menues.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,499 @@
+#include <iostream>
+#include <windows.h>
+#include "clsArchivoPeliculas.h"
+#include "clsPelicula.h"
+#include "funciones.h"
+#include "menues.h"
+#include "listados.h"
+#include "consultas.h"
+#include "informes.h"
+using namespace std;
+
+int menuPrincipal()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << endl;
+        cout << "  * * * * * * * * * * * * * * * * * * * * * * *" << endl;
+        cout << "  *                                            *" << endl;
+        cout << "  *       ██████╗  ██╗███╗    ██╗███████╗      *" << endl;
+        cout << "  *       ██╔════╝ ██║████╗   ██║██╔════╝      *" << endl;
+        cout << "  *       ██║      ██║██╔██╗  ██║█████╗        *" << endl;
+        cout << "  *       ██║      ██║██║╚██╗ ██║██╔══╝        *" << endl;
+        cout << "  *       ╚██████╗ ██║██║ ╚█████║███████╗      *" << endl;
+        cout << "  *        ╚═════╝ ╚═╝╚═╝  ╚════╝╚══════╝      *" << endl;
+        cout << "  *                                            *" << endl;
+        cout << "  * * * * * * * * * * * * * * * * * * * * * * *" << endl;
+        cout << endl;
+        cout << "     1. PELICULAS" << endl;
+        cout << "     2. DESCUENTOS" << endl;
+        cout << "     3. SOCIOS" << endl;
+        cout << "     4. FORMATO" << endl;
+        cout << "     5. SALAS" << endl;
+        cout << "     6. BUTACAS" << endl;
+        cout << "     7. FUNCIONES" << endl;
+        cout << "     8. COMPRAS" << endl;
+        cout << "     9. INFORMES" << endl;
+        cout << "     0. SALIR" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opción: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            menuPeliculas();
+            break;
+        case 2:
+            menuDescuentos();
+            break;
+        case 3:
+            menuSocios();
+            break;
+        case 4:
+            menuFormato();
+            break;
+        case 5:
+            menuSalas();
+            break;
+        case 6:
+            menuButacas();
+            break;
+        case 7:
+            menuFunciones();
+            break;
+        case 8:
+            menuCompras();
+            break;
+        case 9:
+            menuInformes();
+            break;
+        case 0:
+            system("cls");
+            cout << "Saliendo del programa..." << endl;
+            return 0;
+            break;
+        }
+    }
+    return 0;
+}
+
+void menuPeliculas()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|                    PELICULAS                  |" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << "     1. CARGAR PELICULAS" << endl;
+        cout << "     2. LISTAR PELICULAS" << endl;
+        cout << "     3. MODIFICAR" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR PELICULA" << endl;
+        cout << "     5. CONSULTAR PELICULAS" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opción: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            cargarPelicula();
+            break;
+        case 2:
+            listadosPeliculas();
+            break;
+        case 3:
+            modificarPelicula();
+            break;
+        case 4:
+            cambiarEstadoPelicula();
+            break;
+        case 5:
+            consultarPeliculas();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuDescuentos()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|                   DESCUENTOS                  |" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << "     1. CARGAR DESCUENTOS" << endl;
+        cout << "     2. LISTAR DESCUENTOS" << endl;
+        cout << "     3. MODIFICAR" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR DESCUENTO" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opción: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            cargarDescuento();
+            break;
+        case 2:
+            listarDescuentos();
+            break;
+        case 3:
+            modificarDescuento();
+            break;
+        case 4:
+            cambiarEstadoDescuento();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuSocios()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|                     SOCIOS                    |" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << "     1. CARGAR SOCIO" << endl;
+        cout << "     2. LISTAR SOCIOS" << endl;
+        cout << "     3. MODIFICAR" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR SOCIO" << endl;
+        cout << "     5. CONSULTAR SOCIOS" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            cargarSocio();
+            break;
+        case 2:
+            listadosSocios();
+            break;
+        case 3:
+            modificarSocio();
+            break;
+        case 4:
+            cambiarEstadoSocio();
+            break;
+        case 5:
+            consultarSocios();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuFormato()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|                    FORMATOS                   |" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << endl;
+        cout << "     1. CARGAR FORMATOS" << endl;
+        cout << "     2. LISTAR FORMATOS" << endl;
+        cout << "     3. MODIFICAR" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR FORMATO" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            cargarFormato();
+            break;
+        case 2:
+            listarFormatos();
+            break;
+        case 3:
+            modificarFormato();
+            break;
+        case 4:
+            cambiarEstadoFormato();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuSalas()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|                     SALAS                     |" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << endl;
+        cout << "     1. CARGAR SALA" << endl;
+        cout << "     2. LISTAR SALAS" << endl;
+        cout << "     3. MODIFICAR" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR SALA" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            cargarSala();
+            break;
+        case 2:
+            listarSalas();
+            break;
+        case 3:
+            modificarSala();
+            break;
+        case 4:
+            cambiarEstadoSala();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuButacas()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                                   |" << endl;
+        cout << "|                      BUTACAS                      |" << endl;
+        cout << "|                                                   |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << endl;
+        cout << "     1. LISTAR BUTACAS DISPONIBLES DE UNA FUNCION" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            listarButacas();
+            break;
+        case 0:
+            return;
+        }
+    }
+}
+
+void menuFunciones()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|                   FUNCIONES                   |" << endl;
+        cout << "|                                               |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << "     1. CARGAR FUNCION" << endl;
+        cout << "     2. LISTAR FUNCIONES" << endl;
+        cout << "     3. MODIFICAR" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR FUNCION" << endl;
+        cout << "     5. CONSULTAR FUNCIONES" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            cargarFuncion();
+            break;
+        case 2:
+            listadosFunciones();
+            break;
+        case 3:
+            modificarFuncion();
+            break;
+        case 4:
+            cambiarEstadoFuncion();
+            break;
+        case 5:
+            consultarFunciones();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuCompras()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                                   |" << endl;
+        cout << "|                  COMPRAS / VENTAS                 |" << endl;
+        cout << "|                                                   |" << endl;
+        cout << "|||||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << "     1. NUEVA COMPRA (REGISTRAR VENTA)" << endl;
+        cout << "     2. LISTAR COMPRAS" << endl;
+        cout << "     3. CONSULTAR HISTORIAL DE COMPRAS POR SOCIO" << endl;
+        cout << "     4. DAR DE BAJA / REACTIVAR COMPRA" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            registrarCompra();
+            break;
+        case 2:
+            listadosCompras();
+            break;
+        case 3:
+            comprasPorSocio();
+            break;
+        case 4:
+            cambiarEstadoCompra();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}
+
+void menuInformes()
+{
+    int opcion;
+    while (true)
+    {
+        system("cls");
+        cout << "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << "|                                                        |" << endl;
+        cout << "|                INFORMES Y ESTADISTICAS                 |" << endl;
+        cout << "|                                                        |" << endl;
+        cout << "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||" << endl;
+        cout << endl;
+        cout << "     1. RANKING DE RECAUDACION POR PELICULA" << endl;
+        cout << "     2. PORCENTAJE DE OCUPACION POR FUNCION" << endl;
+        cout << "     3. ENTRADAS VENDIDAS POR TIPO DE FORMATO" << endl;
+        cout << "     4. RANKING DE SOCIOS MAS FRECUENTES" << endl;
+        cout << "     5. IMPACTO FINANCIERO DE PROMOCIONES Y DESCUENTOS" << endl;
+        cout << "     6. TICKETS QUE SUPERAN EL GASTO PROMEDIO" << endl;
+        cout << "     0. VOLVER AL MENU PRINCIPAL" << endl;
+        cout << endl;
+        cout << "================================================" << endl;
+        cout << "Ingrese una opcion: ";
+        cin >> opcion;
+        cout << "================================================" << endl;
+        system("cls");
+
+        switch (opcion)
+        {
+        case 1:
+            informeRankingRecaudacionPeliculas();
+            break;
+        case 2:
+            informeOcupacionPorFuncion();
+            break;
+        case 3:
+            informeEntradasPorFormato();
+            break;
+        case 4:
+            informeSociosMasFrecuentes();
+            break;
+        case 5:
+            informeImpactoDescuentos();
+            break;
+        case 6:
+            informeTicketsSuperanPromedio();
+            break;
+        case 0:
+                return;
+            break;
+        }
+    }
+}

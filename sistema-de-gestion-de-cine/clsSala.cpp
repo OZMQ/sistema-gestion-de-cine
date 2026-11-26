@@ -1,0 +1,153 @@
+#include <iostream>
+#include "clsSala.h"
+#include "clsArchivoSalas.h"
+#include "clsArchivoFormato.h"
+using namespace std;
+
+Sala::Sala (int idSala, int capacidadButacas, int formatoProyeccion, bool estado)
+{
+    _idSala=idSala;
+    _capacidadButacas=capacidadButacas;
+    _formatoProyeccion=formatoProyeccion;
+    _estado=estado;
+}
+
+void Sala::cargar()
+{
+    ArchivoSalas arch;
+    cout << "ID: ";
+    cin >> _idSala;
+    while (_idSala <= 0 || arch.buscarRegistro(_idSala) != -1)
+    {
+        if (_idSala <= 0)
+        {
+            cout << "Error, el ID no puede ser negativo o cero." << endl;
+        }
+        else
+        {
+            cout << "Error, el ID ya existe." << endl;
+        }
+        cout << "Ingresar ID nuevamente: ";
+        cin >> _idSala;
+    }
+
+    cout << "CAPACIDAD DE BUTACAS (1 a 500): ";
+    cin >> _capacidadButacas;
+    while (_capacidadButacas < 1 || _capacidadButacas > 500)
+    {
+        cout << "Error, la capacidad debe estar entre 1 y 500." << endl;
+        cout << "Ingresar capacidad nuevamente: ";
+        cin >> _capacidadButacas;
+    }
+
+    ArchivoFormato archF;
+    int cantFormatos = archF.contarRegistros();
+    if (cantFormatos <= 0)
+    {
+        cout << "No hay formatos cargados en el sistema. Cargue un formato primero." << endl;
+        return;
+    }
+
+    cout << "--- Formatos disponibles ---" << endl;
+    for (int i = 0; i < cantFormatos; i++)
+    {
+        Formato f = archF.leerRegistro(i);
+        if (f.getEstado()==true)
+            cout << "ID: " << f.getID() << " - " << f.getNombre() << endl;
+        }
+
+    cout << "ID FORMATO: ";
+    cin >> _formatoProyeccion;
+
+    int posFormato = archF.buscarPorID(_formatoProyeccion);
+    while (_formatoProyeccion <= 0 || posFormato == -1 || !archF.leerRegistro(posFormato).getEstado())
+    {
+        if (_formatoProyeccion <= 0)
+        {
+            cout << "Error, el ID no puede ser negativo o cero." << endl;
+        }
+        else if (posFormato == -1)
+        {
+            cout << "Error, el ID de formato no esta registrado." << endl;
+        }
+        else
+        {
+            cout << "Error, el formato esta inactivo." << endl;
+        }
+        cout << "Ingresar ID nuevamente: ";
+        cin >> _formatoProyeccion;
+        posFormato = archF.buscarPorID(_formatoProyeccion);
+    }
+
+    _estado = true;
+}
+
+void Sala::mostrar()
+{
+    if (_estado)
+    {
+        cout << "=======================================" << endl;
+        cout << "ID: " << _idSala << endl;
+        cout << "CAPACIDAD TOTAL: " << _capacidadButacas << " butacas" << endl;
+        ArchivoFormato arch;
+        int pos = arch.buscarPorID(_formatoProyeccion);
+        if (pos != -1){
+            Formato obj = arch.leerRegistro(pos);
+            cout << "FORMATO: " <<obj.getNombre() <<endl;
+            cout << "PRECIO POR ENTRADA: " <<obj.getPrecio() <<endl;
+        }else {
+            cout <<"Formato no encontrado."<<endl;
+        }
+    }
+}
+
+void Sala::setIdSala(int idSala)
+{
+    if(idSala>0)
+    {
+        _idSala=idSala;
+    }
+}
+void Sala::setCapacidadButacas(int capacidad)
+{
+    if(capacidad>0)
+    {
+        _capacidadButacas=capacidad;
+    }
+}
+void Sala::setFormatoProyeccion(int formato)
+{
+    if(formato>=1 && formato<=3)
+    {
+        _formatoProyeccion=formato;
+    }
+}
+
+void Sala::setEstado(bool estado)
+{
+    _estado=estado;
+}
+int Sala::getIdSala()
+{
+    return _idSala;
+}
+int Sala::getCapacidadButacas()
+{
+    return _capacidadButacas;
+}
+int Sala::getFormatoProyeccion()
+{
+    return _formatoProyeccion;
+}
+
+
+float Sala::getPrecio(){
+    ArchivoFormato arch;
+    int pos = arch.buscarPorID(_formatoProyeccion);
+    if (pos == -1) return 0;
+    return arch.leerRegistro(pos).getPrecio();
+}
+bool Sala::getEstado()
+{
+    return _estado;
+}
